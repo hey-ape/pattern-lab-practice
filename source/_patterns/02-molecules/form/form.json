@@ -1,0 +1,25 @@
+{
+    "items":[
+        {
+            "formclass": "field half first",
+            "forminputtype": "input type='text'",
+            "formnameid": "name",
+            "formplaceholder": "Name",
+            "anythingelse": ""
+        },
+        {
+            "formclass": "field half",
+            "forminputtype": "input type='email'",
+            "formnameid": "email",
+            "formplaceholder": "Email",
+            "anythingelse": ""
+        },
+        {
+            "formclass": "field",
+            "forminputtype": "textarea rows='1' style='overflow: hidden; resize: none; height: 59px;'",
+            "formnameid": "message",
+            "formplaceholder": "Message",
+            "anythingelse": "</textarea>"
+        }
+    ]
+}

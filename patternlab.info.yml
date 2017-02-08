@@ -27,7 +27,10 @@ component-libraries:
       - source/_patterns/01-atoms/01-typography/headings
       - source/_patterns/01-atoms/01-typography/lists
       - source/_patterns/01-atoms/01-typography/text
+      - source/_patterns/01-atoms/altbutt
       - source/_patterns/01-atoms/buttons
+      - source/_patterns/01-atoms/form-field
+      - source/_patterns/01-atoms/icon
       - source/_patterns/01-atoms/images
   molecules:
     paths:
@@ -35,6 +38,7 @@ component-libraries:
       - source/_patterns/02-molecules/box-thumbnail
       - source/_patterns/02-molecules/branding
       - source/_patterns/02-molecules/caption-block
+      - source/_patterns/02-molecules/form
   organisms:
     paths:
       - source/_patterns/03-organisms

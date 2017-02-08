@@ -1,0 +1,19 @@
+<section>
+    <h2>Get in touch</h2>
+    <form action="#" method="post" _lpchecked="1" >
+        {% for item in items %}
+            {% include "@atoms/form-field.twig" with
+            {
+            formclass: item.formclass,
+            forminputtype: item.forminputtype,
+            formnameid: item.formnameid,
+            formplaceholder: item.formplaceholder,
+            anythingelse: item.anythingelse
+            }%}
+        {% endfor %}
+        {% include "@atoms/altbutt.twig" with {
+            buttoninput: "submit",
+            buttonvalue: "Send"
+        }%}
+    </form>
+</section>
