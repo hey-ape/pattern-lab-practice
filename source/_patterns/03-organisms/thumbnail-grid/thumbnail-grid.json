@@ -3,62 +3,62 @@
         {
             "style": "style1",
             "image": "../../../../images/images/pic01.jpg",
-            "title": "Magna"
+            "title": "Alvin"
         },
         {
             "style": "style2",
             "image": "../../../../images/images/pic02.jpg",
-            "title": "Magna"
+            "title": "Simon"
         },
         {
             "style": "style3",
             "image": "../../../../images/images/pic03.jpg",
-            "title": "Magna"
+            "title": "Theodore"
         },
         {
             "style": "style4",
             "image": "../../../../images/images/pic04.jpg",
-            "title": "Magna"
+            "title": "Rudolph"
         },
         {
             "style": "style5",
             "image": "../../../../images/images/pic05.jpg",
-            "title": "Magna"
+            "title": "Dasher"
         },
         {
             "style": "style6",
             "image": "../../../../images/images/pic06.jpg",
-            "title": "Magna"
+            "title": "Dancer"
         },
         {
             "style": "style2",
             "image": "../../../../images/images/pic07.jpg",
-            "title": "Magna"
+            "title": "Prancer"
         },
         {
             "style": "style3",
             "image": "../../../../images/images/pic08.jpg",
-            "title": "Magna"
+            "title": "Vixen"
         },
         {
             "style": "style1",
             "image": "../../../../images/images/pic09.jpg",
-            "title": "Magna"
+            "title": "Comet"
         },
         {
             "style": "style5",
             "image": "../../../../images/images/pic10.jpg",
-            "title": "Magna"
+            "title": "Cupid"
         },
         {
             "style": "style6",
             "image": "../../../../images/images/pic11.jpg",
-            "title": "Magna"
+            "title": "Donner"
         },
         {
             "style": "style4",
             "image": "../../../../images/images/pic12.jpg",
-            "title": "Magna"
+            "title": "Blitzen"
         }
     ]
 }
