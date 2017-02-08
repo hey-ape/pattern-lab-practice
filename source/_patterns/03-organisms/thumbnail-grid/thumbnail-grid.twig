@@ -1,30 +1,11 @@
-{% embed "@base/grids/_smart-grid.twig" with {
-  rowItems: {
-    medium: 3
-  }
-} %}
-  {% block gridItems %}
-
-    {% embed "@molecules/box-thumbnail.twig" with {
-      title: "Block 1"
-    } %}
-    {% endembed %}
-
-    {% embed "@molecules/box-thumbnail.twig" with {
-      title: "Block 2"
-    } %}
-
-    {% endembed %}
-
-    {% embed "@molecules/box-thumbnail.twig" with {
-      title: "Block 3"
-    } %}
-    {% endembed %}
-
-    <section class="tiles">
-        {% embed "@molecules/box-thumbnail.twig" %}
-        {% endembed %}
-    </section>
-
-  {% endblock %}
-{% endembed %}
+<section class="tiles">
+    {% for item in items %}
+        {% include "@molecules/box-thumbnail.twig"
+        with {
+            image: item.image,
+            style: item.style,
+            title: item.title
+        }
+        %}
+    {% endfor %}
+</section>
