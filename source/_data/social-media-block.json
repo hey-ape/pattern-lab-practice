@@ -1,0 +1,36 @@
+{
+    "items":[
+        {
+            "iconfa": "fa-twitter",
+            "iconlabel": "Twitter"
+        },
+        {
+            "iconfa": "fa-facebook",
+            "iconlabel": "Facebook"
+        },
+        {
+            "iconfa": "fa-instagram",
+            "iconlabel": "Instagram"
+        },
+        {
+            "iconfa": "fa-dribbble",
+            "iconlabel": "Dribbble"
+        },
+        {
+            "iconfa": "fa-github",
+            "iconlabel": "Github"
+        },
+        {
+            "iconfa": "fa-500px",
+            "iconlabel": "500px"
+        },
+        {
+            "iconfa": "fa-phone",
+            "iconlabel": "Phone"
+        },
+        {
+            "iconfa": "fa-envelope-o",
+            "iconlabel": "Email"
+        }
+    ]
+}

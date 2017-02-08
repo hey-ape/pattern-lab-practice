@@ -1,0 +1,13 @@
+<section>
+    <h2>Follow</h2>
+    <ul class="icons">
+        {% for item in items %}
+            <li>
+                {% include "@atoms/icon.twig" with {
+                    iconfa: item.iconfa,
+                    iconlabel: item.iconlabel
+                }%}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
